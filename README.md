@@ -1,16 +1,3 @@
-# Welcome to my GitHub.io website!
+# Welcome to the my README!
 
-Hello and welcome to my website. My name is **Brian Hernandez**. 
-I've made this website to showcase 
-git 
-
-
-
-**I want to check if *this* will work.**
-
-
-
-# Hello
-## Hello Hello
-### Hello Hello Hello
-#### Hello Hello Hello Helloasdasdas
+My name is Brian Hernandez and this is the README for my portfolio website. If you'd like to see it, click this -->  :black_circle: :black_circle:
