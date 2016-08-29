@@ -62,6 +62,7 @@ body nav {
     transition: .4s;
 }
 
+
 input:checked + .slider {
     background-color: #2196F3;
 }
@@ -96,4 +97,8 @@ input:checked + .slider:before {
 
 .featureImg {
     margin-bottom: 15px;
+}
+
+#art2, #art3 {
+    display: none;
 }
