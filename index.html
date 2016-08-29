@@ -142,16 +142,40 @@
 <div class="modal fade" id="contact" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header">
-                <h4>Contact Brain Dimension</h4>
-            </div>
-            <div class="modal-body">
-                <p>Nam sagittis volutpat velit, et pharetra purus sodales at. Etiam elementum convallis nisi sed
-                    gravida.Aenean eleifend lorem et cursus lobortis.</p>
-            </div>
-            <div class="modal-footer">
-                <a class="btn-danger btn pull-right" data-dismiss="modal">Close</a>
-            </div>
+            <form class="form-horizontal">
+                <div class="modal-header">
+                    <h4>Contact Brain Dimension</h4>
+                </div>
+
+                <div class="modal-body">
+                    <div class="form-group">
+
+                        <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="contact-name" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email" class="col-lg-2 control-label">Email</label>
+                        <div class="col-lg-10">
+                            <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message" class="col-lg-2 control-label">Message</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" id="contact-message" rows="5"></textarea>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <a class="btn-default btn pull-left" data-dismiss="modal">Close</a>
+                    <button class="btn btn-primary" type="submit">Send</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
