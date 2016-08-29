@@ -24,7 +24,7 @@
     height: 34px;
 }
 
-#mybody {
+body nav {
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -83,4 +83,17 @@ input:checked + .slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+
+.page-header {
+    margin-top: 0;
+}
+
+.panel-body {
+    padding-top: 0;
+}
+
+.featureImg {
+    margin-bottom: 15px;
 }
