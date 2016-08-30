@@ -21,7 +21,7 @@ function lights() {
         console.log("Its checked");
         body.style["color"] = "white";
         body.style["background"] = "black";
-        jumbo.style["background"] = "#0D0D0D";
+        jumbo.style["background"] = "#DA230F";
         nav.className = "navbar navbar-inverse navbar-fixed-top";
         img.src = "img/NY.jpg";
         img2.src = "img/LA2.jpg";
@@ -41,7 +41,7 @@ function lights() {
 
  @param {String} id - The ID of the selected tag.
 
- This function sets the style.display of the 'inactive' articles
+ This function sets the style.display of the 'inactive' Articles
  to 'none' and the 'active' article to 'block.
  */
 var Choice = function (id) {
