@@ -1,0 +1,26 @@
+{
+  "name": "brian-hernandez.github.io",
+  "version": "1.0.0",
+  "description": "My name is Brian Hernandez and this is the README for my portfolio website. If you'd like to see the website, click [:milky_way:](http://brian-hernandez.github.io)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brian-hernandez/brian-hernandez.github.io.git"
+  },
+  "author": "Brian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brian-hernandez/brian-hernandez.github.io/issues"
+  },
+  "homepage": "https://github.com/brian-hernandez/brian-hernandez.github.io#readme",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
