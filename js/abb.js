@@ -1,16 +1,7 @@
-'use strict';
-function getFiles(dir) {
-    var fileList = [];
-
-    var files = fs.readdirSync(dir);
-    for (var i in files) {
-        if (!files.hasOwnProperty(i)) continue;
-        var name = dir + '/' + files[i];
-        if (!fs.statSync(name).isDirectory()) {
-            fileList.push(name);
-        }
-    }
-    return fileList;
-}
-
-console.log(getFiles('../img/drummers/'));
+$.getJSON('../drummers.json', function (data) {
+    $.each(data.drummers, function (i, f) {
+        var imgs = "<div class='col-md-3'><a target='_blank' class='thumbnail darken' href='" + f.yt_url + "'><img" +
+            " class='img-responsive' src='" + f.pic_url + "'></a></div>";
+        $(imgs).appendTo(".gri");
+    })
+});
