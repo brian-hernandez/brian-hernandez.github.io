@@ -2,14 +2,6 @@
  * Created by Brian on 9/5/16.
  */
 
-
-
-$(window).scroll(function () {
-
-    console.log($(window).scrollTop());
-});
-
-
 $(document).ready(function () {
     var scroll = 0;
     var startAt = $('.s2');

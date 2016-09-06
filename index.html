@@ -21,20 +21,31 @@
 <body id="mybody">
 
 <!-- Navbar Section-->
+
 <section>
     <nav class="navbar navbar-default navbar-fixed-top" id="mynav">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#navbar" aria-expanded="false">
-                    <span class="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand"><i id="navL" class=""></i>Brian Hernandez
-                    <!--<i class="fa fa-spin fa-camera-retro fa-1x"></i>-->
-                </a>
+        <div class="navbar-inner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar" aria-expanded="false">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"><i id="navL" class=""></i>Brian Hernandez
+                        <!--<i class="fa fa-spin fa-camera-retro fa-1x"></i>-->
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right nav-choice">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#Background">Background</a></li>
+                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
@@ -57,7 +68,7 @@
     </div>
 </div>
 
-<div class="container s2">
+<div class="container s2" id="Background">
     <div class="row">
         <h1 class="text-center">Background</h1>
         <hr>
@@ -110,7 +121,7 @@
 
 </div>
 
-<div class="container s3">
+<div class="container s3" id="Projects">
     <div class="row">
         <h2 class="text-center">Projects</h2>
         <hr>
@@ -138,7 +149,7 @@
     </div>
 </div>
 
-<footer class="bottomFooter">
+<footer class="bottomFooter" id="Contact">
     <h1 class="text-center">Contact Me</h1><br><br>
     <div class="text-center center-block">
         <a href="mailto:brian@thebrianh.com"><i id="social-fb" class="fa fa-envelope fa-3x social"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -152,48 +163,6 @@
     </div>
 
 </footer>
-
-<!-- Contact Modal set up -->
-<div class="modal fade" id="contact" role="dialog">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <form class="form-horizontal">
-                <div class="modal-header">
-                    <h4>Contact Brain Dimension</h4>
-                </div>
-
-                <div class="modal-body">
-                    <div class="form-group">
-
-                        <label for="contact-name" class="col-lg-2 control-label">Name</label>
-                        <div class="col-lg-10">
-                            <input type="text" class="form-control" id="contact-name" placeholder="Name">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="contact-email" class="col-lg-2 control-label">Email</label>
-                        <div class="col-lg-10">
-                            <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
-                        </div>
-
-                    </div>
-                    <div class="form-group">
-                        <label for="contact-message" class="col-lg-2 control-label">Message</label>
-                        <div class="col-lg-10">
-                            <textarea class="form-control" id="contact-message" rows="5"></textarea>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <a class="btn-default btn pull-left" data-dismiss="modal">Close</a>
-                    <button class="btn btn-primary" type="submit">Send</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
