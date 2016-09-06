@@ -114,29 +114,34 @@ input:checked + .slider:before {
 }
 
 .s1 {
-    background: #BDB246 no-repeat top center fixed;
+    background: #2A4849 no-repeat top center fixed;
     width: 100%;
-    padding: 50px;
-
+    padding-bottom: 150px;
+    padding-top: 120px;
 }
 
 .s2 {
-    background: #CA2E55 no-repeat top center fixed;
+    background: #698996 no-repeat top center fixed;
     width: 100%;
-    padding: 50px;
+    padding-top: 18px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
 
 }
 
 .s3 {
-    background: #8A6552 no-repeat top center fixed;
+    background: #60495A no-repeat top center fixed;
     width: 100%;
-    padding: 50px;
-
+    padding-top: 18px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-family: 'Baloo Chettan', cursive;
+    font-family: 'Lora', serif;
     color: white;
 
 }
@@ -145,13 +150,12 @@ body {
     color: white;
 }
 
-#me {
-    width: 100%;
-    border-radius: 45px;
+.degree {
 }
 
-footer {
-    margin-top: -30px;
+.bottomFooter {
+    margin-top: -20px;
+    padding-top: 7px;
     color: black;
     background: #FFE0B5;
 }
@@ -167,4 +171,28 @@ footer {
 .split-para span {
     float: right;
 
+}
+
+.greeting {
+    font-size: 20px;
+}
+
+#csula_logo {
+    margin-top: 20px;
+    width: 9%;
+    color: white;
+}
+
+#jpl_logo {
+    margin-top: 20px;
+    width: 30%;
+}
+
+#directStem {
+    margin-top: 20px;
+    width: 9%;
+}
+
+#navsea {
+    width:15%;
 }

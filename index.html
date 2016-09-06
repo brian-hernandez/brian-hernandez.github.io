@@ -7,7 +7,7 @@
 
     <title>Brian's Portfolio</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
     <!-- Bootstrap CSS and my own CSS-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
@@ -32,7 +32,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="#" class="navbar-brand"><i id="navL" class=""></i>Brian hernandez
+                <a href="#" class="navbar-brand"><i id="navL" class=""></i>Brian Hernandez
                     <!--<i class="fa fa-spin fa-camera-retro fa-1x"></i>-->
                 </a>
             </div>
@@ -46,49 +46,60 @@
         <div class="col-sm-6 text-center">
             <i class="fa fa-laptop FA fa-5x" aria-hidden="true"></i>
             <h1>Welcome!</h1>
-            <p>My name is Brian Hernandez and I recently completed my Bachelors degree in Computer Science at
-                California State University, Los Angeles. I created this website as a sort of portfolio that anyone
-                can access to see some of things I've worked on as well as things I'm currently working on.
+            <p class="greeting">My name is Brian Hernandez and I recently completed my Bachelors degree in Computer
+                Science at
+                California State University, Los Angeles. I created this website as a sort of portfolio for anyone
+                to access some of things I've worked on as well as things I'm currently working on.
             </p>
             <p></p>
-            <i class="fa fa-circle-thin fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-circle-thin fa-5x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-circle-thin fa-5x" aria-hidden="true"></i>
         </div>
         <div class="col-sm-3"></div>
-        <br><br><br>
     </div>
 </div>
 
 <div class="container s2">
     <div class="row">
-        <h1>Résumé</h1>
+        <h1 class="text-center">Background</h1>
         <hr>
         <hr>
         <div class="col-sm-1"></div>
         <div class="col-sm-10">
-            <br>
-            <i class="fa fa-graduation-cap FA fa-2x title" aria-hidden="true"> Education</i>
-            <h3 class="split-para">California State University Los Angeles<span>2016</span></h3>
-            <h4>Computer Science B.S.</h4>
+            <h3>Education</h3>
+            <img id="csula_logo" src="img/CSULA_seal.png">
+            <h4 class="split-para">California
+                State University Los Angeles<span>June 2016</span></h4>
+            <h4 class="degree">Computer Science B.S.</h4>
+            <nav aria-label="s">
+                <ul class="pager pull-left">
+                    <li><a href="#">Java</a></li>
+                    <li><a href="#">C++</a></li>
+                    <li><a href="#">Python</a></li>
+                    <li><a href="#">Web: HTML, CSS, JS</a></li>
+                </ul>
+            </nav>
 
             <br>
-            <hr>
             <br>
-            <i class="fa fa-globe FA fa-2x title" aria-hidden="true"> Relevant Experience</i>
-            <h3 class="split-para">Jet Propulsion Lab<span>June 2016 - August 2016</span></h3>
+            <br>
+            <hr>
+
+            <h3>Relevant Experience</h3>
+            <img id="jpl_logo" src="img/jpl.png">
+            <h4 class="split-para">Jet Propulsion Laboratory Intern<span>June 2016 - August 2016</span></h4>
             <p>Worked with the Lunar Mapping and Modeling Project team to implement a solution for a way to test the
                 QoS of web services that the LMMP portal makes use of.</p>
 
             <br>
             <br>
-            <h3 class="split-para">NASA DIRECT-STEM Student Researcher<span>June 2015 - June 2016</span></h3>
+            <img id="directStem" src="img/DIRECTSTEM_Logo_C.png">
+            <h4 class="split-para">NASA DIRECT-STEM Student Researcher<span>June 2015 - June 2016</span></h4>
             <p>Conducted research and surveyed existing software tools to gain better understanding of QoS analyzers
                 .</p>
 
             <br>
             <br>
-            <h3 class="split-para">NAVSEA - App Store<span>June 2015 - June 2016</span></h3>
+            <img id="navsea" src="img/navsea.png">
+            <h4 class="split-para">NAVSEA App Store - Senior Design Project<span>June 2015 - June 2016</span></h4>
             <p>Worked with a team on designing and implementing a solution for internal software distribution. This
                 application had a similar structure to today's popular app stores; UI for users, developers and
                 managers.</p>
@@ -101,7 +112,7 @@
 
 <div class="container s3">
     <div class="row">
-        <h2>Projects</h2>
+        <h2 class="text-center">Projects</h2>
         <hr>
         <hr>
         <div class="col-md-4">
@@ -127,13 +138,17 @@
     </div>
 </div>
 
-<footer class="footer">
-    <h1 class="text-center">Contact</h1><br><br>
+<footer class="bottomFooter">
+    <h1 class="text-center">Contact Me</h1><br><br>
     <div class="text-center center-block">
-        <a href="#"><i id="social-fb" class="fa fa-envelope fa-3x social"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#"><i id="social-yt" class="fa fa-linkedin-square fa-3x social"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#"><i id="social-ig" class="fa fa-github-square fa-3x social"></i></a>
-        <br><br>
+        <a href="mailto:brian@thebrianh.com"><i id="social-fb" class="fa fa-envelope fa-3x social"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/brhernandez"><i id="social-yt"
+                                                             class="fa fa-linkedin-square fa-3x social"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://github.com/brian-hernandez"><i id="social-ig" class="fa fa-github-square fa-3x social"></i></a>
+    </div>
+    <br><br>
+    <div class="text-center center-block">
+        <i class="fa fa-copyright text-center" aria-hidden="true"> 2016 Brian Hernandez.</i>
     </div>
 
 </footer>

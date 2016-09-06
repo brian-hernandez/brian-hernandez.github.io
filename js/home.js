@@ -14,11 +14,12 @@ $(document).ready(function () {
     var scroll = 0;
     var startAt = $('.s2');
     var offset = startAt.offset();
+
     if (startAt.length) {
         $(document).scroll(function () {
             startAt = $(this).scrollTop();
-            if (startAt > offset.top) {
-                $(".navbar-default").css('background-color', '#462521')
+            if (startAt != 0) {
+                $(".navbar-default").css('background-color', '#040404')
                 //document.getElementById("navL").className = "fa fa-instagram fa-2x FA";
             } else {
                 $(".navbar-default").css('background-color', 'transparent')
