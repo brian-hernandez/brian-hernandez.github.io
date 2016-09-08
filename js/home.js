@@ -4,7 +4,7 @@
 
 $(document).ready(function () {
     var scroll = 0;
-    var startAt = $('.s2');
+    var startAt = $('.myBackground');
     var offset = startAt.offset();
 
     if (startAt.length) {
@@ -21,3 +21,8 @@ $(document).ready(function () {
     }
 });
 
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
