@@ -27,6 +27,7 @@ $(document).on('click', '.navbar-collapse.in', function (e) {
     }
 });
 
+var a = false;
 function gallery(id) {
     document.getElementById('preview').src = document.getElementById(id).src;
 }

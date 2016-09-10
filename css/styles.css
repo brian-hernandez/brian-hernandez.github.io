@@ -14,7 +14,7 @@ body nav {
 }
 
 .aboutMe {
-    background: #E5E8B6 no-repeat top center fixed;
+    background: #EDF2F4 no-repeat top center fixed;
     width: 100%;
     padding-bottom: 120px;
     padding-top: 120px;
@@ -31,14 +31,13 @@ body nav {
 }
 
 .myProjects {
-    background: #ADADB2 no-repeat top center fixed;
+    background: #EDF2F4 no-repeat top center fixed;
     width: 100%;
     padding: 40px;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
-    color: white;
 }
 
 .FA {
