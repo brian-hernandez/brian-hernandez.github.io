@@ -21,8 +21,18 @@ $(document).ready(function () {
     }
 });
 
-$(document).on('click','.navbar-collapse.in',function(e) {
-    if( $(e.target).is('a') ) {
+$(document).on('click', '.navbar-collapse.in', function (e) {
+    if ($(e.target).is('a')) {
         $(this).collapse('hide');
     }
 });
+
+function gallery(id) {
+    document.getElementById('preview').src = document.getElementById(id).src;
+}
+function gallery2(id) {
+    document.getElementById('preview2').src = document.getElementById(id).src;
+}
+function gallery3(id) {
+    document.getElementById('preview3').src = document.getElementById(id).src;
+}
