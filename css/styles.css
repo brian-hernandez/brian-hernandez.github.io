@@ -54,15 +54,6 @@ body {
     font-size: 15px;
 }
 
-.split-para {
-    display: block;
-}
-
-.split-para span {
-    float: right;
-
-}
-
 .greeting {
     font-size: 20px;
 }
@@ -181,9 +172,13 @@ body {
 }
 
 .image:hover img {
-    -webkit-transform: scale(1.15); /* Safari and Chrome */
-    -moz-transform: scale(1.15); /* Firefox */
-    -ms-transform: scale(1.15); /* IE 9 */
-    -o-transform: scale(1.15); /* Opera */
-    transform: scale(1.15);
+    -webkit-transform: scale(1.03); /* Safari and Chrome */
+    -moz-transform: scale(1.03); /* Firefox */
+    -ms-transform: scale(1.03); /* IE 9 */
+    -o-transform: scale(1.03); /* Opera */
+    transform: scale(1.03);
+}
+
+footer {
+    color: white;
 }
