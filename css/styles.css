@@ -14,7 +14,7 @@ body nav {
 }
 
 .aboutMe {
-    background: #C5D5EA no-repeat top center fixed;
+    background: #E5E8B6 no-repeat top center fixed;
     width: 100%;
     padding-bottom: 120px;
     padding-top: 120px;
@@ -171,4 +171,20 @@ body {
     border: 2px solid black;
     background-color: black;
 
+}
+
+.image img {
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
+}
+
+.image:hover img {
+    -webkit-transform: scale(1.15); /* Safari and Chrome */
+    -moz-transform: scale(1.15); /* Firefox */
+    -ms-transform: scale(1.15); /* IE 9 */
+    -o-transform: scale(1.15); /* Opera */
+    transform: scale(1.15);
 }
