@@ -5,3 +5,7 @@ My name is Brian Hernandez and this is the README for my portfolio website. If y
 If not, check out my [GitHub](https://github.com/brian-hernandez) repositories.
 
 Thanks for looking!
+
+Acknowledgments:
+
+• scaleToWindow.js from kittykatattack

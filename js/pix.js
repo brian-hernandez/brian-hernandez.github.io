@@ -16,52 +16,74 @@ document.body.appendChild(renderer.view);
 renderer.backgroundColor = 0x991611;
 
 
-loader.add("./img/worldmap.json").on("progress", loadProgressHandler).load(setup);
+loader.add("./img/butth.json").on("progress", loadProgressHandler).load(setup);
 
 function loadProgressHandler(loader, resource) {
     console.log("loading: " + resource.url);
     console.log("progress: " + loader.progress + "%");
 }
 
-var id, fireTux, ground, ground2, ground3, ground4, smallTux;
+var id, fireTux, ground, ground2, ground3, ground4, smallTux, butth, mc;
 
 function setup() {
     console.log("All files loaded");
 
 
-    // Ground
-    var groundTexture = TextureCache["snowman.png"];
-    // ground = new Sprite(groundTexture);
-    ground = new PIXI.extras.TilingSprite(groundTexture, 32, 600);
-    ground2 = new PIXI.extras.TilingSprite(groundTexture, 600, 32);
-    ground3 = new PIXI.extras.TilingSprite(groundTexture, 600, 32);
-    ground4 = new PIXI.extras.TilingSprite(groundTexture, 32, 600);
-    ground3.x = 0;
-    ground3.y = 568;
-    ground4.x = 568;
-    ground4.y = 0;
-    ground.addChild(ground2);
-    ground.addChild(ground3);
-    ground.addChild(ground4);
-    stage.addChild(ground);
+    // // Ground
+    // var groundTexture = TextureCache["snowman.png"];
+    // // ground = new Sprite(groundTexture);
+    // ground = new PIXI.extras.TilingSprite(groundTexture, 32, 600);
+    // ground2 = new PIXI.extras.TilingSprite(groundTexture, 600, 32);
+    // butth = new PIXI.extras.TilingSprite(groundTexture, 600, 32);
+    // ground4 = new PIXI.extras.TilingSprite(groundTexture, 32, 600);
+    // ground3.x = 0;
+    // mc.y = 568;
+    // ground4.x = 568;
+    // ground4.y = 0;
+    // ground.addChild(ground2);
+    // ground.addChild(ground3);
+    // ground.addChild(ground4);
+    // stage.addChild(ground);
+
+    // // Small Tux
+    // smallTux = new Sprite(
+    //     resources["./img/worldmap.json"].textures["smalltux.png"]
+    // );
+    // smallTux.x = 100;
+    // smallTux.y = stage.height / 2 - smallTux.height / 2;
+    // stage.addChild(smallTux);
+    // smallTux.vx = 0;
+    // smallTux.vy = 0;
+
+
+    var butts = ["15.png", "16.png", "17.png", "18.png", "19.png", "20.png", "21.png", "22.png"];
+    var textArr = [];
+
+    for(var i = 0; i < 8; i++){
+        var textu = Texture.fromImage(butts[i]);
+        textArr.push(textu);
+    };
+
+    mc = new PIXI.MovieClip(textArr);
+    stage.addChild(mc);
 
     // Small Tux
-    smallTux = new Sprite(
-        resources["./img/worldmap.json"].textures["smalltux.png"]
+    butth = new Sprite(
+        resources["./img/butth.json"].textures["16.png"]
     );
-    smallTux.x = 100;
-    smallTux.y = stage.height / 2 - smallTux.height / 2;
-    stage.addChild(smallTux);
-    smallTux.vx = 0;
-    smallTux.vy = 0;
+    butth.x = 100;
+    butth.y = stage.height / 2 - butth.height / 2;
+    stage.addChild(butth);
+    butth.vx = 0;
+    butth.vy = 0;
 
-    // Fire Tux
-    id = resources["./img/worldmap.json"].textures;
-    fireTux = new Sprite(id["firetux.png"]);
-    stage.addChild(fireTux);
-    fireTux.x = 500;
-    fireTux.y = 400;
-    stage.addChild(fireTux);
+    // // Fire Tux
+    // id = resources["./img/worldmap.json"].textures;
+    // fireTux = new Sprite(id["firetux.png"]);
+    // stage.addChild(fireTux);
+    // fireTux.x = 500;
+    // fireTux.y = 400;
+    // stage.addChild(fireTux);
 
 
     var left = keyboard(65),
@@ -71,46 +93,46 @@ function setup() {
 
     // LEFT
     left.press = function () {
-        smallTux.vx = -5;
-        smallTux.vy = 0;
+        mc.vx = -5;
+        mc.vy = 0;
     };
 
     left.release = function () {
-        if (!right.isDown && smallTux.vy === 0) {
-            smallTux.vx = 0;
+        if (!right.isDown && mc.vy === 0) {
+            mc.vx = 0;
         }
     };
 
     // UP
     up.press = function () {
-        smallTux.vy = -5;
-        smallTux.vx = 0;
+        mc.vy = -5;
+        mc.vx = 0;
     };
     up.release = function () {
-        if (!down.isDown && smallTux.vx === 0) {
-            smallTux.vy = 0;
+        if (!down.isDown && mc.vx === 0) {
+            mc.vy = 0;
         }
     };
 
     //Right
     right.press = function () {
-        smallTux.vx = 5;
-        smallTux.vy = 0;
+        mc.vx = 5;
+        mc.vy = 0;
     };
     right.release = function () {
-        if (!left.isDown && smallTux.vy === 0) {
-            smallTux.vx = 0;
+        if (!left.isDown && mc.vy === 0) {
+            mc.vx = 0;
         }
     };
 
     //Down
     down.press = function () {
-        smallTux.vy = 5;
-        smallTux.vx = 0;
+        mc.vy = 5;
+        mc.vx = 0;
     };
     down.release = function () {
-        if (!up.isDown && smallTux.vx === 0) {
-            smallTux.vy = 0;
+        if (!up.isDown && mc.vx === 0) {
+            mc.vy = 0;
         }
     };
 
@@ -140,20 +162,20 @@ function gameLoop() {
 
 function play() {
 
-    smallTux.x += smallTux.vx;
-    smallTux.y += smallTux.vy;
+    mc.x += mc.vx;
+    mc.y += mc.vy;
 
-    if (hitTestRectangle(smallTux, fireTux)) {
-        message.text = "hit!";
-        fireTux.tint = 0xff3300;
-
-    } else {
-
-        //if there's no collision, reset the message
-        //text and the box's color
-        message.text = "No collision...";
-        fireTux.tint = 0xccff99;
-    }
+    // if (hitTestRectangle(smallTux, fireTux)) {
+    //     message.text = "hit!";
+    //     fireTux.tint = 0xff3300;
+    //
+    // } else {
+    //
+    //     //if there's no collision, reset the message
+    //     //text and the box's color
+    //     message.text = "No collision...";
+    //     fireTux.tint = 0xccff99;
+    // }
 }
 function keyboard(keyCode) {
     var key = {};
