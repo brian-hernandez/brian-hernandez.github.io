@@ -1,7 +1,14 @@
 #abblogo {
-    width: 200px;
-    margin-top: 10px;
+    width: 120px;
+    margin-top: 3px;
+    margin-left: -7px;
 
+}
+
+#abblogo2 {
+    width: 90px;
+    margin-top: -27px;
+    margin-left: -35px;
 }
 
 .nav-choice {
@@ -58,7 +65,7 @@ a.darken:hover img {
     Multicoloured Hover Variations
 */
 
-#social-fb, #social-yt,  #social-ig {
+#social-fb, #social-yt, #social-ig {
     color: white;
 }
 
@@ -72,4 +79,16 @@ a.darken:hover img {
 
 #social-ig:hover {
     color: #f39c12;
+}
+
+.navbar-fixed-left {
+    width: 80px;
+    position: fixed;
+    border-radius: 0;
+    height: 100%;
+    font-size: 24px;
+    text-align: center;
+    float: none;
+    padding-left: 14px;
+    padding-top: 15px;
 }

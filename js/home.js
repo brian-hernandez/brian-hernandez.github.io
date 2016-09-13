@@ -37,3 +37,11 @@ function gallery2(id) {
 function gallery3(id) {
     document.getElementById('preview3').src = document.getElementById(id).src;
 }
+
+$(document).on('click', 'a', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 900);
+});

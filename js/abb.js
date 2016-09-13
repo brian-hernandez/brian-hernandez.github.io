@@ -6,3 +6,26 @@ $.getJSON('../drummers.json', function (data) {
         console.log(imgs);
     })
 });
+
+
+
+$(function () {
+
+// Run the effect
+    $("#mynav").hover(function() {
+        console.log("GET OFF ME");
+       $("#effect").show("blind", {"direction": "left"}, 100);
+    }, function () {
+        console.log("GET ON ME");
+        $("#effect").hide("blind", {"direction": "left"}, 100);
+    });
+
+    $("#mynav2").hover(function() {
+        console.log("GET OFF ME");
+        $("#effect").hide("blind", {"direction": "left"}, 100);
+    }, function () {
+        console.log("GET ON ME");
+        $("#effect").show("blind", {"direction": "left"}, 100);
+    });
+});
+
