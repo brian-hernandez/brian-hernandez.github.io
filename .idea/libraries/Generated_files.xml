@@ -2,13 +2,17 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/js/game0-compiled.js" />
-        <item url="file://$PROJECT_DIR$/js/scaleToWindow-compiled.js" />
+        <item url="file://$PROJECT_DIR$/js/game0/game0-compiled.js" />
+        <item url="file://$PROJECT_DIR$/js/game0/scaleToWindow-compiled.js" />
+        <item url="file://$PROJECT_DIR$/js/game0/keyboard-compiled.js" />
+        <item url="file://$PROJECT_DIR$/js/game0/bump-compiled.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/js/game0-compiled.js" />
-      <root url="file://$PROJECT_DIR$/js/scaleToWindow-compiled.js" />
+      <root url="file://$PROJECT_DIR$/js/game0/game0-compiled.js" />
+      <root url="file://$PROJECT_DIR$/js/game0/scaleToWindow-compiled.js" />
+      <root url="file://$PROJECT_DIR$/js/game0/keyboard-compiled.js" />
+      <root url="file://$PROJECT_DIR$/js/game0/bump-compiled.js" />
     </CLASSES>
     <SOURCES />
   </library>

@@ -1,0 +1,102 @@
+{"frames": {
+
+"bg.jpg":
+{
+	"frame": {"x":0,"y":36,"w":720,"h":384},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":720,"h":384},
+	"sourceSize": {"w":720,"h":384},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"chopper1.gif":
+{
+	"frame": {"x":191,"y":0,"w":52,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":36},
+	"sourceSize": {"w":52,"h":36},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"chopper2.gif":
+{
+	"frame": {"x":243,"y":0,"w":52,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":36},
+	"sourceSize": {"w":52,"h":36},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"chopper3.gif":
+{
+	"frame": {"x":295,"y":0,"w":52,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":36},
+	"sourceSize": {"w":52,"h":36},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"chopper4.gif":
+{
+	"frame": {"x":87,"y":0,"w":52,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":36},
+	"sourceSize": {"w":52,"h":36},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"chopper5.gif":
+{
+	"frame": {"x":139,"y":0,"w":52,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":36},
+	"sourceSize": {"w":52,"h":36},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"cloud1.gif":
+{
+	"frame": {"x":347,"y":0,"w":194,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":32},
+	"sourceSize": {"w":194,"h":32},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"gun.gif":
+{
+	"frame": {"x":18,"y":0,"w":24,"h":7},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":7},
+	"sourceSize": {"w":24,"h":7},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"shell.gif":
+{
+	"frame": {"x":0,"y":0,"w":18,"h":7},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":7},
+	"sourceSize": {"w":18,"h":7},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"tank.gif":
+{
+	"frame": {"x":42,"y":0,"w":45,"h":28},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":28},
+	"sourceSize": {"w":45,"h":28},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "snow.png",
+	"format": "RGBA8888",
+	"size": {"w":720,"h":420},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:7b80e79a18e3978fedbf24ba52e80176:c1179a63739e61ff719064393f400fb5:06a2c7225e748b9073bdcc44bcdfe832$"
+}
+}
