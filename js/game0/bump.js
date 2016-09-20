@@ -721,7 +721,6 @@ class Bump {
      */
 
     hitTestCircleRectangle(c1, r1, global = false) {
-
         //Add collision properties
         if (!r1._bumpPropertiesAdded) this.addCollisionProperties(r1);
         if (!c1._bumpPropertiesAdded) this.addCollisionProperties(c1);

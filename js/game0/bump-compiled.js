@@ -803,7 +803,6 @@ var Bump = function () {
         value: function hitTestCircleRectangle(c1, r1) {
             var global = arguments.length <= 2 || arguments[2] === undefined ? false : arguments[2];
 
-
             //Add collision properties
             if (!r1._bumpPropertiesAdded) this.addCollisionProperties(r1);
             if (!c1._bumpPropertiesAdded) this.addCollisionProperties(c1);
