@@ -1,6 +1,7 @@
 /**
  * Created by Brian on 11/20/16.
  */
+//Constructor Function
 function Far() {
     var texture = PIXI.Texture.fromImage("./resources/bg-far.png");
     PIXI.extras.TilingSprite.call(this, texture, 512, 256);
@@ -12,3 +13,7 @@ function Far() {
 }
 
 Far.prototype = Object.create(PIXI.extras.TilingSprite.prototype);
+
+Far.prototype.update = function () {
+    this.tilePosition.x -= 0.128;
+}
