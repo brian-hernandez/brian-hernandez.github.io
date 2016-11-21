@@ -8,6 +8,9 @@ function Scroller(stage) {
     this.mid = new Mid();
     stage.addChild(this.mid);
 
+    this.front = new Walls();
+    stage.addChild(this.front);
+
     this.viewportX = 0;
 }
 
