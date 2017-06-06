@@ -24,6 +24,7 @@ Walls.prototype.setViewportX = function (viewportX) {
     var preViewportSliceX = this.viewportX;
     this.viewportSliceX = Math.floor(this.viewportX / WallSlice.WIDTH);
 
+    this.removeOldSlices(preViewportSliceX);
     this.addNewSlices();
 
 };
@@ -46,13 +47,12 @@ Walls.prototype.checkViewportXBounds = function (viewportX) {
 
 Walls.prototype.addNewSlices = function () {
     var firstX = -(this.viewportX % WallSlice.WIDTH);
-    for (var i = this.viewportX, sliceIndex = 0;
-         i < this.viewportX + Walls.VIEWPORT_NUM_SLICES;
+    for (var i = this.viewportSliceX, sliceIndex = 0;
+         i < this.viewportSliceX + Walls.VIEWPORT_NUM_SLICES;
          i++, sliceIndex++) {
         var slice = this.slices[i];
         if (slice.sprite == null && slice.type != SliceType.GAP) {
             slice.sprite = this.borrowWallSprite(slice.type);
-
             slice.sprite.position.x = firstX + (sliceIndex * WallSlice.WIDTH);
             slice.sprite.position.y = slice.y;
 
@@ -62,6 +62,23 @@ Walls.prototype.addNewSlices = function () {
         }
     }
 };
+
+Walls.prototype.removeOldSlices = function (prevViewportSliceX) {
+    var numOldSlices = this.viewportSliceX - prevViewportSliceX;
+    if (numOldSlices > Walls.VIEWPORT_NUM_SLICES) {
+        numOldSlices = Walls.VIEWPORT_NUM_SLICES;
+    }
+
+    for (var i = prevViewportSliceX; i < prevViewportSliceX + numOldSlices; i++) {
+        var slice = this.slices[i];
+        if (slice.sprite != null) {
+            this.returnWallSprite(slice.type, slice.sprite);
+            this.removeChild(slice.sprite);
+            slice.sprite = null;
+        }
+    }
+};
+
 
 Walls.prototype.createLookupTables = function () {
     this.borrowWallSpriteLookup = [];
