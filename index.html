@@ -20,6 +20,17 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script>
+
+        menuItems.click(function(e){
+            var href = $(this).attr("href"),
+                    offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
+
+        menuItems = topMenu.find("a[href^='#']");
+
+    </script>
+
+
 </head>
 
 
@@ -65,12 +76,8 @@
                 <p class="greeting">My name is Brian Hernandez and I recently completed my Bachelors degree in Computer
                     Science at
                     California State University, Los Angeles. I created this website as a sort of portfolio for anyone
-                    to <a href="https://brian-hernandez.github.io/wip">access</a> some of
-                    things
-                    I've worked on as well
-                    as things I'm
-                    currently
-                    working on.
+                    to access some ofthingsI've worked on as wellas things I'mcurrentlyworking <a
+                            href="www.google.com">on</a>.
                 </p>
             </div>
             <div class="col-sm-4"></div>
