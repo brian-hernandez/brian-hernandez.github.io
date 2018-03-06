@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$/BS_Site/js/Far.js" libraries="{pixi}" />
-    <file url="file://$PROJECT_DIR$/BS_Site/js/Main.js" libraries="{pixi}" />
-    <file url="file://$PROJECT_DIR$/BS_Site/js/Mid.js" libraries="{pixi}" />
-    <file url="file://$PROJECT_DIR$/BS_Site/js/Scroller.js" libraries="{pixi}" />
-    <file url="file://$PROJECT_DIR$/BS_Site/js/WallSpritesPool.js" libraries="{pixi}" />
-    <file url="file://$PROJECT_DIR$/BS_Site/js/Walls.js" libraries="{pixi}" />
     <file url="PROJECT" libraries="{angular, angular.min.js, angularjs-DefinitelyTyped}" />
-    <includedPredefinedLibrary name="ECMAScript 6" />
   </component>
 </project>
