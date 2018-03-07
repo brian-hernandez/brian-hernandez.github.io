@@ -11,6 +11,5 @@
     <orderEntry type="library" name="angular.min.js" level="project" />
     <orderEntry type="library" name="angularjs-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="angular" level="application" />
-    <orderEntry type="library" name="pixi" level="application" />
   </component>
 </module>
