@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a26b475-4126-4df9-a48a-bbdd2a1eaadd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/brian-hernandez.github.io.iml" afterPath="$PROJECT_DIR$/.idea/brian-hernandez.github.io.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="brian-hernandez.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,18 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="foo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/foo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="525">
+              <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -153,22 +140,6 @@
             <path>
               <item name="github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,7 +292,7 @@
       <workItem from="1496720586719" duration="5591000" />
       <workItem from="1517003713266" duration="152000" />
       <workItem from="1517004013083" duration="3698000" />
-      <workItem from="1520377593445" duration="4091000" />
+      <workItem from="1520377593445" duration="4217000" />
     </task>
     <task id="LOCAL-00001" summary="more stuff">
       <created>1472316916293</created>
@@ -582,11 +553,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520379016698</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Testing BS">
+      <created>1520392564582</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1520392564582</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172319000" />
+    <option name="totallyTimeSpent" value="172445000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -599,9 +577,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17746182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17746182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.49815693" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20953327" sideWeight="0.5171143" order="7" side_tool="true" content_ui="tabs" />
@@ -673,7 +650,8 @@
     <MESSAGE value="readme" />
     <MESSAGE value="added some style stuff" />
     <MESSAGE value="Cleaning up the Master branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaning up the Master branch" />
+    <MESSAGE value="Testing BS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing BS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1071,8 +1049,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="525">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding />
         </state>
       </provider>
