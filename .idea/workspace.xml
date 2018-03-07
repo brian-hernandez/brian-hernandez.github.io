@@ -292,7 +292,7 @@
       <workItem from="1496720586719" duration="5591000" />
       <workItem from="1517003713266" duration="152000" />
       <workItem from="1517004013083" duration="3698000" />
-      <workItem from="1520377593445" duration="4457000" />
+      <workItem from="1520377593445" duration="4469000" />
     </task>
     <task id="LOCAL-00001" summary="more stuff">
       <created>1472316916293</created>
@@ -574,11 +574,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520392907941</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="More tests">
+      <created>1520392927667</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1520392927667</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172685000" />
+    <option name="totallyTimeSpent" value="172697000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -665,7 +672,8 @@
     <MESSAGE value="added some style stuff" />
     <MESSAGE value="Cleaning up the Master branch" />
     <MESSAGE value="Testing BS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing BS" />
+    <MESSAGE value="More tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="More tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
